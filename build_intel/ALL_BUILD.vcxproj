@@ -1,0 +1,889 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{A1322CBD-8A87-479E-8849-815C443E5503}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>Intel C++ Compiler 16.0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>Intel C++ Compiler 16.0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>Intel C++ Compiler 16.0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>Intel C++ Compiler 16.0</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\src;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\bin;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\src;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\bin;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\src;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\bin;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\src;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\bin;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16 -BC:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel --check-stamp-file C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\CMakeFiles\3.3.0\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\CMakeFiles\3.3.0\CMakeCCompiler.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\CMakeFiles\3.3.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\CMakeFiles\3.3.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFMacros.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFLibMacros.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\HDF5Macros.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\ConfigureChecks.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\ConfigureChecks.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckVariableExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFortranFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\TestBigEndian.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\TestForSTDNamespace.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFCXXTests.cpp;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFCXXTests.cpp;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFCXXTests.cpp;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFCXXTests.cpp;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFCXXTests.cpp;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFTests.c;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\TestForSTDNamespace.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\ConversionTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\ConversionTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\ConversionTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\ConversionTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\ConversionTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\HDFCompilerFlags.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\UserMacros.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CMakeFilters.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\ExternalProject.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CTestConfig.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\CTestCustom.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CTest.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CTestUseLaunchers.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CTestConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CTestTargets.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\DartConfiguration.tcl.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\H5pubconf.h.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CMakeInstallation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\hdf5-config.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\FindHDF5.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\hdf5-config.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\hdf5-config-version.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\libhdf5.settings.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\README.txt.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\COPYING;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Templates\CPackConfig.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.3\Templates\CPackConfig.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16 -BC:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel --check-stamp-file C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\CMakeFiles\3.3.0\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\CMakeFiles\3.3.0\CMakeCCompiler.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\CMakeFiles\3.3.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\CMakeFiles\3.3.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFMacros.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFLibMacros.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\HDF5Macros.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\ConfigureChecks.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\ConfigureChecks.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckVariableExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFortranFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\TestBigEndian.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\TestForSTDNamespace.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFCXXTests.cpp;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFCXXTests.cpp;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFCXXTests.cpp;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFCXXTests.cpp;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFCXXTests.cpp;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFTests.c;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\TestForSTDNamespace.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\ConversionTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\ConversionTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\ConversionTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\ConversionTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\ConversionTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\HDFCompilerFlags.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\UserMacros.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CMakeFilters.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\ExternalProject.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CTestConfig.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\CTestCustom.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CTest.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CTestUseLaunchers.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CTestConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CTestTargets.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\DartConfiguration.tcl.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\H5pubconf.h.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CMakeInstallation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\hdf5-config.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\FindHDF5.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\hdf5-config.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\hdf5-config-version.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\libhdf5.settings.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\README.txt.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\COPYING;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Templates\CPackConfig.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.3\Templates\CPackConfig.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16 -BC:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel --check-stamp-file C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\CMakeFiles\3.3.0\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\CMakeFiles\3.3.0\CMakeCCompiler.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\CMakeFiles\3.3.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\CMakeFiles\3.3.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFMacros.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFLibMacros.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\HDF5Macros.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\ConfigureChecks.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\ConfigureChecks.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckVariableExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFortranFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\TestBigEndian.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\TestForSTDNamespace.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFCXXTests.cpp;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFCXXTests.cpp;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFCXXTests.cpp;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFCXXTests.cpp;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFCXXTests.cpp;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFTests.c;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\TestForSTDNamespace.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\ConversionTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\ConversionTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\ConversionTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\ConversionTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\ConversionTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\HDFCompilerFlags.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\UserMacros.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CMakeFilters.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\ExternalProject.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CTestConfig.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\CTestCustom.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CTest.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CTestUseLaunchers.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CTestConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CTestTargets.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\DartConfiguration.tcl.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\H5pubconf.h.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CMakeInstallation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\hdf5-config.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\FindHDF5.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\hdf5-config.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\hdf5-config-version.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\libhdf5.settings.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\README.txt.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\COPYING;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Templates\CPackConfig.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.3\Templates\CPackConfig.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16 -BC:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel --check-stamp-file C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\CMakeFiles\3.3.0\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\CMakeFiles\3.3.0\CMakeCCompiler.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\CMakeFiles\3.3.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\CMakeFiles\3.3.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFMacros.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFLibMacros.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\HDF5Macros.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\ConfigureChecks.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\ConfigureChecks.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckVariableExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFortranFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\TestBigEndian.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\TestForSTDNamespace.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFCXXTests.cpp;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFCXXTests.cpp;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFCXXTests.cpp;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFCXXTests.cpp;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFCXXTests.cpp;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake_ext_mod\HDFTests.c;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\TestForSTDNamespace.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\ConversionTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\ConversionTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\ConversionTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\ConversionTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\ConversionTests.c;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\HDFCompilerFlags.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\UserMacros.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CMakeFilters.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\ExternalProject.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CTestConfig.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\CTestCustom.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CTest.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CTestUseLaunchers.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CTestConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CTestTargets.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\DartConfiguration.tcl.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\H5pubconf.h.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CMakeInstallation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\hdf5-config.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\FindHDF5.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\hdf5-config.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\hdf5-config-version.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\libhdf5.settings.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\config\cmake\README.txt.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\COPYING;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Templates\CPackConfig.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.3\Templates\CPackConfig.cmake.in;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/src/H5detect.vcxproj">
+      <Project>37BA568E-0DAE-4011-B34C-A9EA52D55027</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/src/H5make_libsettings.vcxproj">
+      <Project>68521120-1C61-4535-B460-8E409632E767</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/ZERO_CHECK.vcxproj">
+      <Project>C5E5FC0A-43CB-4559-A57F-4CF78ACD3351</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/accum.vcxproj">
+      <Project>0AF10E7C-95C6-4490-8490-B0E377CBF9FA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/accum-shared.vcxproj">
+      <Project>DB4379CB-D0BF-442B-9225-40EA0D19B459</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/app_ref.vcxproj">
+      <Project>36AE1D8E-1E0B-437A-977F-38760F717437</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/app_ref-shared.vcxproj">
+      <Project>1189BA69-FBD4-473A-B6D4-56F4C666B05D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/big.vcxproj">
+      <Project>89425092-629C-44E4-85A6-E6EE3E6A28DA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/big-shared.vcxproj">
+      <Project>6B98E592-8476-47EB-97F3-6C189BC0D7C6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/bittests.vcxproj">
+      <Project>DAAE8E05-881D-45FD-92A2-845A7DE43247</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/bittests-shared.vcxproj">
+      <Project>E0F111AF-6DEB-4473-9086-9A2738DBC0D6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/btree2.vcxproj">
+      <Project>53B169CB-C743-46E4-AD69-3F5277741D2C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/btree2-shared.vcxproj">
+      <Project>B2D67FCD-A7C4-4631-B8A9-5301971F3E64</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/cache.vcxproj">
+      <Project>0352F743-12AC-42DC-99B7-F68E454DCB51</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/cache-shared.vcxproj">
+      <Project>0855DE00-C190-4D61-AA01-1BC81434C0EE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/cache_api.vcxproj">
+      <Project>BF61DB2F-D9BD-4F7A-A314-2A987EEFF10E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/cache_api-shared.vcxproj">
+      <Project>9E8EC24F-F4C1-4D08-8A93-9C23272AE0D6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/perform/chunk.vcxproj">
+      <Project>15AAC603-8322-4C08-8CD8-187CD350A207</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/cmpd_dset.vcxproj">
+      <Project>6DD7FC3C-5D74-4335-9072-925F61F07CBE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/cmpd_dset-shared.vcxproj">
+      <Project>E4610900-84E6-4EF1-834B-CE57BCE7BB66</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_chunks.vcxproj">
+      <Project>195F9051-75C0-47B7-93BB-EE73AA7B0072</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_compound.vcxproj">
+      <Project>4F965AA8-969B-4EE4-A746-5E7710818994</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_create.vcxproj">
+      <Project>0855562E-ED14-4145-8C53-A44B17DDCE10</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_extend_ds.vcxproj">
+      <Project>79CDC21A-EAF1-4C06-8ED7-87B0B4BF150F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_h5group.vcxproj">
+      <Project>3814210E-9165-48E9-8DED-A76867337607</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_h5tutr_cmprss.vcxproj">
+      <Project>E8A3E6F0-A171-41E8-8697-7EC5CF00C6CD</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_h5tutr_crtatt.vcxproj">
+      <Project>B270FAC8-DB0A-49E0-A82F-6A9FE216D239</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_h5tutr_crtdat.vcxproj">
+      <Project>5B94CE3C-AF63-4F05-A966-8DA71C312117</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_h5tutr_crtgrp.vcxproj">
+      <Project>9D0A32CC-2BC3-4A94-B286-44E0845DADAF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_h5tutr_crtgrpar.vcxproj">
+      <Project>3634069F-4C70-47D7-8980-7BC37BC36F6C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_h5tutr_crtgrpd.vcxproj">
+      <Project>CC9349AA-E3C0-485F-989E-DC09AA4A9D74</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_h5tutr_extend.vcxproj">
+      <Project>F0F38BA1-476C-4DDD-948E-C140A998C360</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_h5tutr_rdwt.vcxproj">
+      <Project>785EF214-3342-4C2C-9659-68470A987ECB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_h5tutr_subset.vcxproj">
+      <Project>79C6C9F5-7FF1-43D7-8EE6-17871C602C61</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_readdata.vcxproj">
+      <Project>DD794D36-C3F6-46AA-BE01-B5CC1635F98F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_writedata.vcxproj">
+      <Project>96E1AB27-3B07-4CE4-A9DF-D34F362CE3DB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/test/cpp_testhdf5.vcxproj">
+      <Project>A14D41A8-F197-4886-8030-98794DCC0298</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/cross_read.vcxproj">
+      <Project>EBCB0860-23DC-49CF-B9EE-D6430CF16825</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/cross_read-shared.vcxproj">
+      <Project>046AE7EE-E8BB-4123-8936-FAA057076F5B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/dangle.vcxproj">
+      <Project>31B0AD06-A62E-401C-ACFF-80B1810C3CFB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/dangle-shared.vcxproj">
+      <Project>D05593C8-6411-44E5-9C61-C160674C74F4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/dsets.vcxproj">
+      <Project>CCA9427B-70E8-4108-AE7E-454A1CB28D43</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/dsets-shared.vcxproj">
+      <Project>77B3293F-9C5E-4E72-83D2-1E868DD67963</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/dt_arith.vcxproj">
+      <Project>9ABB3B5E-E71A-44D4-9635-BA8FD642145F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/dt_arith-shared.vcxproj">
+      <Project>8B479EAF-45DC-47FF-88B9-1C14CE7235E0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/dtransform.vcxproj">
+      <Project>FD29C72A-292D-4669-92C2-4F25406BD38D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/dtransform-shared.vcxproj">
+      <Project>5055ECE4-4D3A-4F47-A853-076A1747D0D3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/dtypes.vcxproj">
+      <Project>06A8ABEB-AFFB-42CA-A2B1-E567EECBB393</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/dtypes-shared.vcxproj">
+      <Project>95077172-B3F7-44A2-857F-0447F031B3A1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/dynlib1.vcxproj">
+      <Project>7B32AB68-2BCB-48AD-8DDD-192153010D48</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/dynlib2.vcxproj">
+      <Project>D207A3FC-247F-49D3-AD76-AEB205A4A7E8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/dynlib3.vcxproj">
+      <Project>4B8E1CB6-FB12-485A-9160-C1718563F5A1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/h5repack/dynlibadd.vcxproj">
+      <Project>C2AF19AA-32F9-45A4-B8D7-CF480606074B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/efc.vcxproj">
+      <Project>5B39081C-BD85-4C3D-B174-CFDB48038CDE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/efc-shared.vcxproj">
+      <Project>DBF7B132-0720-40A0-A728-E0CFA7AD2F69</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/enum.vcxproj">
+      <Project>A39D5F49-D88E-4954-B8F7-15374FD6F3B9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/enum-shared.vcxproj">
+      <Project>C18FF04B-DB20-45EB-A9E6-8DB8ACD385A5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/err_compat.vcxproj">
+      <Project>2D7A6E93-9527-44FB-AB59-12EEDFD3ED0C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/err_compat-shared.vcxproj">
+      <Project>2379A2CE-1108-4C4B-8D7D-24CD27D4A0A2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/error_test.vcxproj">
+      <Project>C0B69D52-B139-4A59-A352-CD177F121267</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/error_test-shared.vcxproj">
+      <Project>B287DD62-651B-4504-8928-BAB99B29FF47</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/extend.vcxproj">
+      <Project>7977D7F7-F819-4AB8-A387-1562038CDBD5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/extend-shared.vcxproj">
+      <Project>999C7C5F-1AA1-485D-AB99-ACED00B1C296</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/external.vcxproj">
+      <Project>2B2E8174-292B-47E6-98F4-9B9BA1ADF98D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/external-shared.vcxproj">
+      <Project>02CB06F2-63E5-4F9D-B7E6-0B7B0B11EFA1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/fheap.vcxproj">
+      <Project>81F3A812-2C6C-44DA-BFC2-5CADB7868C24</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/fheap-shared.vcxproj">
+      <Project>FB8BBA8F-BDF0-41FF-9E28-4D5D781039CD</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/file_image.vcxproj">
+      <Project>A58A11E9-69DC-4BA3-981D-9FC9CE897999</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/file_image-shared.vcxproj">
+      <Project>F31B8261-4E3E-4160-B548-5ED8255DDB57</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/fillval.vcxproj">
+      <Project>F8566A3C-87C4-491D-A428-213586208FFB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/fillval-shared.vcxproj">
+      <Project>675304F5-FE22-49BE-94F5-89321DB7426B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/filter_fail.vcxproj">
+      <Project>05BFE66E-3B8A-402E-9436-491D83E0C681</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/filter_fail-shared.vcxproj">
+      <Project>6E125263-9EB1-4637-A4C6-8632DB080784</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/flush1.vcxproj">
+      <Project>6B5764B9-4E61-469C-BB82-2DB56F888BC9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/flush1-shared.vcxproj">
+      <Project>803175F6-6B07-4209-9038-E2A82F4644D3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/flush2.vcxproj">
+      <Project>F8B3F6F3-6159-4DE6-AC81-7DB79F61A3A2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/flush2-shared.vcxproj">
+      <Project>31D2BDA8-34D4-4211-8D48-4421319B71D4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/freespace.vcxproj">
+      <Project>59E98D26-BCDF-4B62-A99A-609B822201EF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/freespace-shared.vcxproj">
+      <Project>2CEF0990-BB9F-4D4E-A6B8-73D249FB2581</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/getname.vcxproj">
+      <Project>7EBBBA4D-2EE1-42DD-B322-D3E258DC8B5E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/getname-shared.vcxproj">
+      <Project>27739218-CE2A-4440-ACA6-AF281DB9611E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/h5jam/getub.vcxproj">
+      <Project>4E34B3A2-6CB5-4B84-BAF0-1C46F37ABBEE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/gheap.vcxproj">
+      <Project>80A382C6-8777-4D8C-A268-CC17430CBDB4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/gheap-shared.vcxproj">
+      <Project>A530A2DA-E8A3-4874-A6A3-C02D9F81EA9D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/tools/gif2h5.vcxproj">
+      <Project>97541A4C-BCEC-40C9-85E7-100938CF26E5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/tools/h52gif.vcxproj">
+      <Project>23EF7650-D01C-4125-83B4-DCD8CAE49583</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_attribute.vcxproj">
+      <Project>829B5862-6BF0-4B53-8B5A-A36AD6FAA067</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_attribute-shared.vcxproj">
+      <Project>2865AB7B-AAB9-47CF-9258-B3671CB33645</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_chunk_read.vcxproj">
+      <Project>12C40EF8-D73F-4A66-8024-EDF5220AE69A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_chunk_read-shared.vcxproj">
+      <Project>F216B0C8-2EC4-49D7-A8B6-72DF79C8A63E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_cmprss.vcxproj">
+      <Project>BF7051EC-A436-430E-8444-BA5C32893BAA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_cmprss-shared.vcxproj">
+      <Project>0DBD1B31-A41E-4E52-83AA-86A5C91ED501</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_compound.vcxproj">
+      <Project>4D880664-5498-41B8-87E3-B6782DEEBD64</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_compound-shared.vcxproj">
+      <Project>0550D176-8459-4BE1-95CF-C7727BBE1718</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_crtatt.vcxproj">
+      <Project>3D162677-0A69-42B7-9F5B-9F9AF5003280</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_crtatt-shared.vcxproj">
+      <Project>476CF630-67FF-4B4C-9534-F75559D2D7F8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_crtdat.vcxproj">
+      <Project>C8651F27-4950-41A0-8E14-20C94E15AC9E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_crtdat-shared.vcxproj">
+      <Project>A44C2267-99AE-4537-AB95-716DFE302574</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_crtgrp.vcxproj">
+      <Project>C900BDFA-3A45-42F9-BEAC-569CA700E89B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_crtgrp-shared.vcxproj">
+      <Project>E5BED411-A8E6-4F9C-9263-2587DCE70772</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_crtgrpar.vcxproj">
+      <Project>545A1BDD-7828-4F51-B6BC-B67F54B1D785</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_crtgrpar-shared.vcxproj">
+      <Project>DC1D81E2-DCD2-4F01-A0A0-86E66B4C3B31</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_crtgrpd.vcxproj">
+      <Project>4CCC05AB-11CA-4850-96F4-5611349A0AEA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_crtgrpd-shared.vcxproj">
+      <Project>53573543-8DDF-4C53-8D20-A0B029D7A25B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_drivers.vcxproj">
+      <Project>11627A83-E44D-47DC-8AA8-D05136148022</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_drivers-shared.vcxproj">
+      <Project>61DB3BF6-76BD-4292-9751-CA2638EB8D52</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_elink_unix2win.vcxproj">
+      <Project>D7194D44-BE42-478C-BBB9-2FFB333CDF23</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_elink_unix2win-shared.vcxproj">
+      <Project>A6765558-A353-445E-9B79-1997C9E6B7AE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_extend.vcxproj">
+      <Project>CFE57AC9-8ACB-40E4-8F8D-62DEF7DC39F1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_extend-shared.vcxproj">
+      <Project>70CC0AD7-E81B-4246-8A0E-76C0A52E9A4D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_extend_write.vcxproj">
+      <Project>FAFFDCE1-9D8A-4339-8E9D-C34807A0E0ED</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_extend_write-shared.vcxproj">
+      <Project>303242A3-7A59-4E2D-AFBC-58683A555D78</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_extlink.vcxproj">
+      <Project>E8C78732-953C-4C06-86D3-B92D430727C3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_extlink-shared.vcxproj">
+      <Project>23B2D937-5983-44B3-B350-5133808202CF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_group.vcxproj">
+      <Project>AFF70E74-9E97-4D01-AABF-65C484DA9127</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_group-shared.vcxproj">
+      <Project>F7EF8A00-D88B-4234-A3AA-46893106C89D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_mount.vcxproj">
+      <Project>5F53040B-5EF1-4D9A-8F3A-7D8137EC9A6F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_mount-shared.vcxproj">
+      <Project>8CCADDF8-EB11-4AC4-8AEF-011613CD4A7A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_rdwt.vcxproj">
+      <Project>BB482C95-8D87-460D-84F0-5DB51ECC6CFD</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_rdwt-shared.vcxproj">
+      <Project>16965F4E-FC79-441E-8BDC-8E5D3A17D160</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_read.vcxproj">
+      <Project>3CA3ED72-C687-47A0-AD14-272C5AB9EECF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_read-shared.vcxproj">
+      <Project>3EDF5669-E9C2-429B-859C-5705C86522A8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_ref2reg.vcxproj">
+      <Project>AF4AC567-7FC1-4193-B42B-D5F745522F0F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_ref2reg-shared.vcxproj">
+      <Project>8E8E9EA4-3908-46DA-88B2-3726CC81FEBB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_reference.vcxproj">
+      <Project>280BB482-1969-421F-B6D5-C4DE027ACEF8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_reference-shared.vcxproj">
+      <Project>BC38454E-2D01-4D8E-9779-BB33B50D9CE9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_select.vcxproj">
+      <Project>1E104731-4186-49F5-9511-71620A8C8FC1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_select-shared.vcxproj">
+      <Project>4CDAF877-CE33-4FF4-A368-12F7B610C7C2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_shared_mesg.vcxproj">
+      <Project>412CAD29-5549-4101-BED7-FE7425F7E7E8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_shared_mesg-shared.vcxproj">
+      <Project>6ACF12D5-380D-4EF7-9CB2-6F1E8BC22A97</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_subset.vcxproj">
+      <Project>187E745B-A432-46CC-9260-712BC32F5093</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_subset-shared.vcxproj">
+      <Project>4F719CF6-ADDA-4A31-80EB-8EC70A978A98</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_write.vcxproj">
+      <Project>C810219F-F5C6-4DBA-B317-BA11034A94D3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/examples/h5_write-shared.vcxproj">
+      <Project>10C2A3D4-B8F7-487B-8BE0-A5BBDCF70E8B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/h5copy/h5copy.vcxproj">
+      <Project>C2D31030-544D-48D3-930C-6D30CADED23E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/misc/h5debug.vcxproj">
+      <Project>F949FF2C-4697-4DED-8B1A-921D495250D7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/h5diff/h5diff.vcxproj">
+      <Project>288A9EE6-1730-4F54-AFCC-F803DDC817C9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/h5dump/h5dump.vcxproj">
+      <Project>52BF4B81-59F1-4F7A-82DD-E1C6F0820669</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/h5import/h5import.vcxproj">
+      <Project>97F91BC0-E84B-4446-A7F5-BBE2246F58F7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/h5import/h5importtest.vcxproj">
+      <Project>6DFE8297-FAAA-4AD2-92F2-D7D5210A8DCF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/h5jam/h5jam.vcxproj">
+      <Project>AEA1544C-C209-4E77-B856-C4F50422E589</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/h5ls/h5ls.vcxproj">
+      <Project>66FBED97-5DA7-4C08-938D-ADF67687A13A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/misc/h5mkgrp.vcxproj">
+      <Project>1DCB9FAC-E365-4EF0-B330-D0B13988A0A8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/perform/h5perf_serial.vcxproj">
+      <Project>F38A3003-D7F3-4DB0-A72E-6B210377D839</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/h5repack/h5repack.vcxproj">
+      <Project>DC504986-FB7D-4B07-99F4-9C7DDA06B3DE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/h5repack/h5repacktest.vcxproj">
+      <Project>F814AD57-BBB8-462A-80E3-16E2ADBE4ABD</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/misc/h5repart.vcxproj">
+      <Project>345B210C-65D0-424B-A4E7-5148A190AF03</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/misc/h5repart_test.vcxproj">
+      <Project>47F5881B-9CC5-4320-8EA7-9C11DE93E096</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/h5stat/h5stat.vcxproj">
+      <Project>44B56731-3B9D-4F0A-98B8-D357BD599D26</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/h5jam/h5unjam.vcxproj">
+      <Project>C4EE56FB-3476-438D-A2DE-35EEA8936264</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/src/hdf5-shared.vcxproj">
+      <Project>9207BE41-355B-4813-9AF0-18B8AB8CDCA3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/src/hdf5-static.vcxproj">
+      <Project>5D5CD073-C26F-4626-9308-69E0DB53251D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/src/hdf5_cpp-shared.vcxproj">
+      <Project>86662413-A4D6-4762-95D2-FB12F21819E0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/src/hdf5_cpp-static.vcxproj">
+      <Project>1E83E5C8-A94B-4858-8AFE-F2FE05B96A24</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/src/hdf5_hl-shared.vcxproj">
+      <Project>F720D8C6-BAF8-4732-BFEC-8C6ED14B4843</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/src/hdf5_hl-static.vcxproj">
+      <Project>BE8A248E-1493-4793-8842-67B32AADB533</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/c++/src/hdf5_hl_cpp-shared.vcxproj">
+      <Project>77EB0B68-C7C2-4023-BD40-49DA52DB3FE8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/c++/src/hdf5_hl_cpp-static.vcxproj">
+      <Project>7330D42E-2812-417E-BE8A-5FB1350AAD3D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/hdf5_test-shared.vcxproj">
+      <Project>444E9673-EB90-49BF-A7DA-35773F11B75D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/hdf5_test-static.vcxproj">
+      <Project>7DC74FC9-5F94-4269-B1C2-18D6B043F5E3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/lib/hdf5_tools-shared.vcxproj">
+      <Project>504345D7-84EB-4DCC-A4D1-ABAE82C3A51A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/lib/hdf5_tools-static.vcxproj">
+      <Project>B97087A1-EE6A-4A3F-BA7A-615963B60D3A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/examples/hl_ex_ex_ds1.vcxproj">
+      <Project>399896FB-1C6A-4920-9314-833E3CC70345</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/examples/hl_ex_ex_image1.vcxproj">
+      <Project>7CC775A9-AA49-45DE-92B8-8F2A273F82B7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/examples/hl_ex_ex_image2.vcxproj">
+      <Project>E20DEAE4-8483-4083-8D09-BEEF750ABBFE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/examples/hl_ex_ex_lite1.vcxproj">
+      <Project>2313BA90-71EF-4409-B5BC-D4745926BB39</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/examples/hl_ex_ex_lite2.vcxproj">
+      <Project>1C6A9355-CFEE-454D-A40F-29E9F3E6A76E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/examples/hl_ex_ex_lite3.vcxproj">
+      <Project>101E1AAB-CECC-457E-A132-AAFF9958A0CE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/examples/hl_ex_ex_table_01.vcxproj">
+      <Project>CE9EDAC0-8093-4B33-BCB3-C9F314842EF3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/examples/hl_ex_ex_table_02.vcxproj">
+      <Project>81696F2E-0E85-4233-9402-C66D2A200677</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/examples/hl_ex_ex_table_03.vcxproj">
+      <Project>0C2AB0E1-8742-4FCB-AC28-A804CCD933D1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/examples/hl_ex_ex_table_04.vcxproj">
+      <Project>62FECE64-6CE6-4138-88AA-3AB2D4A70130</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/examples/hl_ex_ex_table_05.vcxproj">
+      <Project>99CDEF7C-909C-43F6-9F9D-92E3CA0F1533</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/examples/hl_ex_ex_table_06.vcxproj">
+      <Project>A0F8C127-DFD2-4DF7-ABB4-152145E6EB61</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/examples/hl_ex_ex_table_07.vcxproj">
+      <Project>E107D239-2D17-4051-8CAF-5DC6FC03BB75</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/examples/hl_ex_ex_table_08.vcxproj">
+      <Project>0FADEFB7-2647-457A-9C3F-4FCC2D9C0E5A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/examples/hl_ex_ex_table_09.vcxproj">
+      <Project>9424EE11-A29B-426C-9CD0-9D34C8429E89</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/examples/hl_ex_ex_table_10.vcxproj">
+      <Project>3F9073EB-F51E-4A7F-9212-B2F887D4F785</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/examples/hl_ex_ex_table_11.vcxproj">
+      <Project>1CDC5887-E111-4CD7-A3AE-A1F0021D749E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/examples/hl_ex_ex_table_12.vcxproj">
+      <Project>B3E35323-D568-404E-AECC-50734B287642</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/examples/hl_ex_ptExampleFL.vcxproj">
+      <Project>180AF39F-FC19-459A-9CFF-54ACAB29CD07</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/c++/test/hl_ptableTest.vcxproj">
+      <Project>193D4A2D-EBD5-4437-9D1C-4E29BCAFF50D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/test/hl_test_ds.vcxproj">
+      <Project>093B8C4F-C2D8-4575-AFA1-0A36F68FCF60</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/test/hl_test_dset_opt.vcxproj">
+      <Project>62C6CDA0-9484-43D6-B118-9001352BAEF2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/test/hl_test_image.vcxproj">
+      <Project>73C5BEFC-C897-44E5-BD24-331B08307D3F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/test/hl_test_lite.vcxproj">
+      <Project>8DC640B5-1336-432D-AE9B-B1AB382E3815</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/test/hl_test_packet.vcxproj">
+      <Project>E79BD592-0DF3-4E51-995D-8410895C708B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/test/hl_test_table.vcxproj">
+      <Project>7C862A34-7D97-41D7-9A09-0FF87BB05E8F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/hyperslab.vcxproj">
+      <Project>7019E34E-321C-4DE4-956A-E28155E76F56</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/hyperslab-shared.vcxproj">
+      <Project>974FD6BB-D506-4B92-A804-4AE6D3DE89EF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/perform/iopipe.vcxproj">
+      <Project>E8E98B11-7365-44C6-95D3-91759651D1E8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/istore.vcxproj">
+      <Project>83B450F4-8ACB-4FD2-9DF1-74BFF93D1033</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/istore-shared.vcxproj">
+      <Project>C5E95CBE-4562-4245-93E1-94076BE1E274</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/lheap.vcxproj">
+      <Project>8047B94B-2832-4ABA-8E75-86907438A348</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/lheap-shared.vcxproj">
+      <Project>B8842C63-2D1C-4E8E-9921-19B5029FA006</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/links.vcxproj">
+      <Project>04C3CEBC-B352-425C-A0A7-A6D372B18BA3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/links-shared.vcxproj">
+      <Project>9267A8E3-8B0B-4A5A-98A8-F64016ADD032</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/links_env.vcxproj">
+      <Project>069E4AB2-5158-4F71-B6B1-39FEF4D1BA1D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/links_env-shared.vcxproj">
+      <Project>011F27E8-7536-42D5-989E-5506B1113589</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/mf.vcxproj">
+      <Project>9CC5CC8F-0686-4101-8AD5-0D524C225DFA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/mf-shared.vcxproj">
+      <Project>36C23063-C115-4FC3-901F-265D60A9F772</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/mount.vcxproj">
+      <Project>860709B0-514F-4ED9-B76B-45A6CE9ED373</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/mount-shared.vcxproj">
+      <Project>8AF8B97C-AAAC-4AF9-AC5C-9356FDE914E3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/mtime.vcxproj">
+      <Project>07873FC7-3EAC-401E-B5F6-C8E54BDBF351</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/mtime-shared.vcxproj">
+      <Project>FF445B93-02BA-4CB4-9A98-99F3ED421CE0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/ntypes.vcxproj">
+      <Project>19F4B514-E9D9-45AB-B396-556B34A0327A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/ntypes-shared.vcxproj">
+      <Project>3A2DE5AF-8238-45CE-9C5E-745F3E155AD7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/objcopy.vcxproj">
+      <Project>F1903413-0766-4478-A52A-61EE25E3653D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/objcopy-shared.vcxproj">
+      <Project>71C7E423-3A8C-4A97-8A86-BE405DC52CA7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/ohdr.vcxproj">
+      <Project>7CA1DD4F-D36C-4F17-9C35-6031B2B4A0C6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/ohdr-shared.vcxproj">
+      <Project>6296330A-4D24-4042-A94F-69A3257F6B14</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/perform/overhead.vcxproj">
+      <Project>0AD94C74-ACE0-4829-A3BB-E258B75DCCC8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/perform/perf_meta.vcxproj">
+      <Project>09626B49-170E-46ED-A2DA-375B715EF8A9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/plugin.vcxproj">
+      <Project>BDABAD86-C39F-4841-A609-0DBC177DF46C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/pool.vcxproj">
+      <Project>8C1590E5-0B9A-4F52-A2D0-2340B1AFB765</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/pool-shared.vcxproj">
+      <Project>BB29E3FB-5BED-41C4-99B7-94A0159A3090</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/hl/c++/examples/ptExampleFL.vcxproj">
+      <Project>605DEAB0-7630-42FC-8C01-3BCDF85D7525</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/reserved.vcxproj">
+      <Project>055DAA59-CDBF-489A-9B77-B1C0DEA8CC1B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/reserved-shared.vcxproj">
+      <Project>E910E1F1-C8EC-41A7-AE8C-704396C112CA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/set_extent.vcxproj">
+      <Project>F5BD179E-4E45-42D4-9D56-9101911B7688</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/set_extent-shared.vcxproj">
+      <Project>F96A4CAC-9024-42FF-A71C-5617BE201E71</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/stab.vcxproj">
+      <Project>DB866D17-A285-4485-8BAA-7156F48553CB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/stab-shared.vcxproj">
+      <Project>36F4D66C-E363-4118-89C3-3AFAAB338578</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/tcheck_version.vcxproj">
+      <Project>27D69215-1B28-4E86-964D-1633AEB9F44A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/tcheck_version-shared.vcxproj">
+      <Project>EDF259EE-AB3B-4808-9EAB-17E465B60686</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/h5jam/tellub.vcxproj">
+      <Project>C84CF9FB-4FF6-4C0D-9814-4F5B992D0D34</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/h5repack/testh5repack_detect_szip.vcxproj">
+      <Project>55E92794-7CF0-4542-A188-D9C0F6211B2D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/testhdf5.vcxproj">
+      <Project>DCACCA1A-EC2A-40F1-869B-084EC251507C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/testhdf5-shared.vcxproj">
+      <Project>FEA08850-DC87-47BB-A32A-0AC5F86EC922</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/testmeta.vcxproj">
+      <Project>10D87FCB-1226-47FD-A570-36FD9FA7D821</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/testmeta-shared.vcxproj">
+      <Project>6F37932A-995E-46FE-9399-8AC3680A5213</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/ttsafe.vcxproj">
+      <Project>11F07E32-47E1-423F-94B9-3AB69A597CFA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/ttsafe-shared.vcxproj">
+      <Project>CA6D969D-5093-4336-A52C-7F2FD9F3AAD6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/unlink.vcxproj">
+      <Project>8ADDE94A-7E32-48B6-9323-C8EFE767311F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/unlink-shared.vcxproj">
+      <Project>3C012EDA-E120-4682-9259-A09D79E2FEE8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/unregister.vcxproj">
+      <Project>70421A90-20A3-427B-A944-A7D5C16636C6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/unregister-shared.vcxproj">
+      <Project>4ED68368-FAC7-48AB-93ED-D849EED012FB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/vfd.vcxproj">
+      <Project>4EE0C1A7-766C-4698-AEF0-7A0C8FB0882E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/test/vfd-shared.vcxproj">
+      <Project>C616B04B-384B-4ABD-BE24-24ABEFBD252A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/tools/perform/zip_perf.vcxproj">
+      <Project>1B8955D0-CFAF-4460-B657-693C744333E6</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

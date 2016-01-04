@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\hl\tools\gif2h5\decompress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\hl\tools\gif2h5\gif2hdf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\hl\tools\gif2h5\gif2mem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\hl\tools\gif2h5\gifread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\hl\tools\gif2h5\writehdf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\hl\tools\gif2h5\gif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\hl\tools\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F10FF0DE-8771-4BD5-ABEC-05BA19E1C9BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8AD60D96-ABC7-4A2F-9F77-E65BBFCF4F68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

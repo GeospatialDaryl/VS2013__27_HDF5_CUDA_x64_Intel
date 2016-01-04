@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{A1322CBD-8A87-479E-8849-815C443E5503}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\src;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\bin;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\c++\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\src;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\bin;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\c++\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\src;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\bin;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\c++\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\src;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\bin;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\c++\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\c++\examples\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/c++/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16 -BC:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel --check-stamp-file C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\c++\examples\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/c++/examples/CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\c++\examples\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\c++\examples\CMakeTests.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\c++\examples\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\c++\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/c++/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16 -BC:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel --check-stamp-file C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\c++\examples\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/c++/examples/CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\c++\examples\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\c++\examples\CMakeTests.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\c++\examples\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\c++\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/c++/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16 -BC:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel --check-stamp-file C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\c++\examples\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/c++/examples/CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\c++\examples\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\c++\examples\CMakeTests.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\c++\examples\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\c++\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/c++/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16 -BC:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel --check-stamp-file C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\c++\examples\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/c++/examples/CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\c++\examples\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\c++\examples\CMakeTests.cmake;C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\c++\examples\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\dkvandyke\Source\Repos\27_HDF5\hdf5-1.8.16\hdf5-1.8.16\build_Intel\c++\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_chunks.vcxproj">
+      <Project>195F9051-75C0-47B7-93BB-EE73AA7B0072</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_compound.vcxproj">
+      <Project>4F965AA8-969B-4EE4-A746-5E7710818994</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_create.vcxproj">
+      <Project>0855562E-ED14-4145-8C53-A44B17DDCE10</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_extend_ds.vcxproj">
+      <Project>79CDC21A-EAF1-4C06-8ED7-87B0B4BF150F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_h5group.vcxproj">
+      <Project>3814210E-9165-48E9-8DED-A76867337607</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_h5tutr_cmprss.vcxproj">
+      <Project>E8A3E6F0-A171-41E8-8697-7EC5CF00C6CD</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_h5tutr_crtatt.vcxproj">
+      <Project>B270FAC8-DB0A-49E0-A82F-6A9FE216D239</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_h5tutr_crtdat.vcxproj">
+      <Project>5B94CE3C-AF63-4F05-A966-8DA71C312117</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_h5tutr_crtgrp.vcxproj">
+      <Project>9D0A32CC-2BC3-4A94-B286-44E0845DADAF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_h5tutr_crtgrpar.vcxproj">
+      <Project>3634069F-4C70-47D7-8980-7BC37BC36F6C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_h5tutr_crtgrpd.vcxproj">
+      <Project>CC9349AA-E3C0-485F-989E-DC09AA4A9D74</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_h5tutr_extend.vcxproj">
+      <Project>F0F38BA1-476C-4DDD-948E-C140A998C360</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_h5tutr_rdwt.vcxproj">
+      <Project>785EF214-3342-4C2C-9659-68470A987ECB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_h5tutr_subset.vcxproj">
+      <Project>79C6C9F5-7FF1-43D7-8EE6-17871C602C61</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_readdata.vcxproj">
+      <Project>DD794D36-C3F6-46AA-BE01-B5CC1635F98F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/27_HDF5/hdf5-1.8.16/hdf5-1.8.16/build_Intel/c++/examples/cpp_ex_writedata.vcxproj">
+      <Project>96E1AB27-3B07-4CE4-A9DF-D34F362CE3DB</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
